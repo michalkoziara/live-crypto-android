@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CryptoLive</string>
+    <string name="button">Sprawdź</string>
+    <string name="radioButton">Minutowy</string>
+    <string name="radioButton2">Godzinowy</string>
+    <string name="radioButton3">Dzienny</string>
+    <string name="searchFirstCurrency">Nazwa waluty podstawowej</string>
+    <string name="searchSecondCurrency">Nazwa waluty</string>
+</resources>
