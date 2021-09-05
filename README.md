@@ -7,6 +7,9 @@ Cryptocurrency prices are collected from [CryptoCompare API](https://min-api.cry
 
 ## Getting Started
 
+These instructions will get you a copy of the project up and running on 
+your local machine for development and testing purposes.
+
 ### Prerequisites
 
 * Android SDK
@@ -23,6 +26,21 @@ Detailed information about installation and configurations are provided at devel
 * JavaScript
 
 Google Charts are embedded into the application using WebView.
+
+### Setup 
+
+A step by step instruction:
+* Navigate to ``app/src/main/res/values/`` in project directory.
+* Create ``secrets.xml`` resource file that contains
+```
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="crypto_api_key">PUT-YOUR-API-KEY-HERE</string>
+</resources>
+```
+* Replace example value with your CryptoCompare API key.
+
+The application should be ready to build and run now.
 
 ## Preview
 
